@@ -67,7 +67,21 @@ http://stackoverflow.com/questions/20510619/the-issue-about-call-by-reference-in
 ControllerBase.java 
 
 line35 , (Reflection), (invoke)
-		   
+
+
+===========================
+[常識]
+寫log相關的 通常 放在最後面
+
+
+
+========================================
+
+import LeoLib.tools.Toolets;
+   (底下的東西用物件的方式使用)
+
+import static LeoLib.tools.Toolets.*;
+		(底下的東西可以直接 呼叫使用 (class層級)  )
   
 
 
