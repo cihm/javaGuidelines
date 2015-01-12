@@ -83,7 +83,11 @@ import LeoLib.tools.Toolets;
 import static LeoLib.tools.Toolets.*;
 		(底下的東西可以直接 呼叫使用 (class層級)  )
   
+==============================================
+main 裡面 "盡量" 別用 System.exit(0);
+用return 
 
+ref: http://stackoverflow.com/questions/11487184/why-is-return-needed-even-after-system-exit0
 
 
 
