@@ -89,6 +89,27 @@ main 裡面 "盡量" 別用 System.exit(0);
 
 ref: http://stackoverflow.com/questions/11487184/why-is-return-needed-even-after-system-exit0
 
+========================================
+Java Class Name: UserDAO
+  Any class which accesses a database directly through JDBC is suffixed with the acronym 'DAO'. For example:
+  
+Value Objects and Data Transfer Objects:  
+  A value object (VO) typically represents a simple object used to transfer data between subsystems
+  
+ref:
+https://wiki.base22.com/display/btg/Java+Naming+Standards+and+Guidelines  
+
+
+=======================================================================================
+
+	public void insert(final PeopleVo vo) {
+		//ensure reference won't be change
+		//vo.seraga(20) ,can work,
+		// vo  = vo2  , can't work 
+  }
+
+
+
 
 
 
